@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(54, 3, 105, 1);
+}
+.item-1 {
+  width: fit-content;
+  height: fit-content;
+  font-size: 100px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+
+#btn {
+  width: 492px;
+  height: 58px;
+  font-weight: 300;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#btn:hover {
+  background-color: rgb(202, 219, 233);
+}
+.container-1 {
+  width: 207vh;
+  height: 100vh;
+  background-color: rgba(54, 3, 105, 1);
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.appText {
+  width: fit-content;
+  height: fit-content;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.para {
+  width: fit-content;
+  height: fit-content;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.item-1 {
+  display: flex;
+}
+
+.heading {
+  color: rgba(54, 3, 105, 1);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 66px;
+  text-align: center;
+}
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 87px;
+  border-radius: 10px;
+  background-color: rgba(39, 8, 70, 1);
+  text-align: center;
+  margin: 15px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 662px;
+  background-color: blanchedalmond;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 380px;
+  height: 87px;
+  border-radius: 10px;
+  background-color: rgba(39, 8, 70, 1);
+  text-align: center;
+  margin: 15px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 25px;
+}
+.card {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+iframe {
+  position: relative;
+  top: 30px;
+  left: 300px;
+}
